@@ -13,7 +13,7 @@ SUPOSICIONS:
 
 3- Obviem, almenys en un primer moment, l'impacte de la Població sobre el PIB; d'aquesta manera construir un primer contrafactual del PIB per càpita resultarà molt mes senzill en sacrifici d'una certa fiabilitat, atès que es pot argumentar que el creixement econòmic xinès dels darrers temps es pot explicar d'altres maneres més rellevants que per magnitud poblacional.
 
-4- L'edat de la població és homogènia, es dir, no es té en compte la piràmide poblacional. D'aquesta manera, per exemple, no es té en compte l'efecte d'una població envellida sobre la taxa de mortalitat, que assumirem exògena al model coma  paràmetre.
+4- L'edat de la població és homogènia, es dir, no es té en compte la piràmide poblacional. D'aquesta manera, per exemple, no es té en compte l'efecte d'una població envellida sobre la taxa de mortalitat, que assumirem exògena al model com a  paràmetre.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 METODOLOGIA: 
@@ -29,6 +29,7 @@ La Població a l'inici de la construcció del contrafactual és la de 1971, igua
 Les següents equacions ens permeten veure els dos fluxes de Població existents:
 
 $Naixements = Taxa de natalitat * Població$
+
 $Defuncions = Taxa de mortalitat * Població$
 
 ------------------------------------------------------------------------------------------------------------------------------------------
@@ -42,6 +43,6 @@ Les dades de la població observada ens mostren una evolució semblant a la Log�
 
 D'aquesta manera, podem observar una diferència entre la Població observada i el Contrafactual de 625 milions de persones aproximadament, l'any 2021, i assumint una taxa de natalitat de vora el 3%.
 
-En termes de PIB per càpita, la diferència és de 3500 dòlars anuals l'any 2021.
+En termes de PIB per càpita, la diferència és de 3500 dòlars anuals l'any 2021 (Veure "PIBpc vs. Contrafactual.png").
 
 ------------------------------------------------------------------------------------------------------------------------------------------
