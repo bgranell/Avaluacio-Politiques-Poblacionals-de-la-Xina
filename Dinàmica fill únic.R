@@ -3,10 +3,10 @@ library(dplyr)
 library(ggplot2)
 library(deSolve)
 
-dades_naixements <- read_excel("C:/Users/admin/Desktop/Inquietdus Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 1)
-dades_morts <- read_excel("C:/Users/admin/Desktop/Inquietdus Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 2)
-dades_població <- read_excel("C:/Users/admin/Desktop/Inquietdus Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 3)
-dades_pib <- read_excel("C:/Users/admin/Desktop/Inquietdus Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 4)
+dades_naixements <- read_excel("C:/Users/admin/Desktop/Inquietuds Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 1)
+dades_morts <- read_excel("C:/Users/admin/Desktop/Inquietuds Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 2)
+dades_població <- read_excel("C:/Users/admin/Desktop/Inquietuds Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 3)
+dades_pib <- read_excel("C:/Users/admin/Desktop/Inquietuds Programació/Dinàmica Fill únic/Dades natalitat xina.xlsx", 4)
 
 
 dades <- dades_naixements %>%
